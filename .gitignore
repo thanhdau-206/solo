@@ -1,0 +1,42 @@
+# Environment variables & secrets (NEVER COMMIT)
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+token.json
+
+# Chat & interaction logs
+*.jsonl
+logs/
+references/inter_agent_chat.jsonl
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Workspace temporary files
+*.tmp
+*.bak
+scratch/
+
+# Tournament & Debate runtime artifacts
+work/
+tran-dau.md
+ket-qua.md

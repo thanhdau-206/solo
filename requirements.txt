@@ -1,0 +1,3 @@
+# Minimal dependencies for Brain & Muscle Multi-Agent Hub
+pyyaml>=6.0.0
+requests>=2.31.0
